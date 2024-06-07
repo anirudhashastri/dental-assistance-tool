@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Account</title>
+    <link rel="stylesheet" href="/css/account.css">
+</head>
+<body>
+    <header>
+        <img src="/images/header.png" alt="Title Image" class="title-image">
+        <div class="dropdown">
+            <button class="dropbtn">Account</button>
+            <div class="dropdown-content">
+                <a href="/account/details">View Account</a>
+                <a href="/auth/logout">Logout</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Account Details</h1>
+        <p><strong>Name:</strong> <%= user.name %></p>
+        <p><strong>Username:</strong> <%= user.username %></p>
+        <p><strong>Clinic Name:</strong> <%= user.clinicName %></p>
+    </div>
+</body>
+</html>

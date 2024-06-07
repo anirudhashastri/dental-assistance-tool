@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+    <header>
+        <img src="/images/header.png" alt="Title Image" class="title-image">
+        <div class="dropdown">
+            <button class="dropbtn">Account</button>
+            <div class="dropdown-content">
+                <a href="/account/details">View Account</a>
+                <a href="/auth/logout">Logout</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box-row">
+            <a href="/upload/upload" class="box square">Uploads</a>
+            <a href="/dashboard/hi" class="box square">Results</a>
+        </div>
+        <div class="box-column">
+            <a href="/tools/tools" class="box rectangle">
+                <img src="/images/tool-1.jpg" alt="Tool 1">
+                <span>Cephalometric Analysis</span>
+            </a>
+            <a href="/dashboard/hi" class="box rectangle">
+                <img src="/images/Tool-2.png" alt="Tool 2">
+                <span>Bone Age (CVS Staging)</span>
+            </a>
+        </div>
+    </div>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
