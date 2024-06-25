@@ -45,3 +45,24 @@ Download and install anaconda Install the required packages using pip:
 ###### Create the environment
     conda env create -f cvs-staging.yaml
 or Go to the anaconda application and upload the .yml file in your environments tab
+
+### Running the tool
+#### Start the node server
+        node server.js
+The application should now be running at "http://localhost:3000"
+
+To run the python server we need to run the scripts/test.py
+#### Make sure you are in the correct python evironment and run
+        python test.py
+The flask tool server should be running at "http://localhost:5000"
+
+
+### How to Use
+- Register a new account or log in if you already have one.
+- Upload dental images through the Upload page.
+- Navigate to the Tools page to run AI analysis on uploaded images.
+- View and manage your account details from the Account page.
+
+        
+        
+        
