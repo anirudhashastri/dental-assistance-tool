@@ -3,6 +3,16 @@
 ## Overview
 The Dental Assistance Tool is a web application designed to provide AI-powered tools for dentists. These tools are accessible over a server and can be used with a simple click, helping to save time and assist in diagnostics. This project aims to make advanced AI tools easily available and user-friendly for dental professionals.
 
+## Table of Contents
+
+1. [Features](#Features)
+2. [Project Purpose](#Project-Purpose)
+3. [Setup Instructions](#Setup-Instructions)
+4. [Evaluation and Results](#evaluation-and-results)
+5. [How to Use](#How-to-Use)
+
+
+
 ## Features
 - User Authentication (Register, Login, Logout)
 - Upload and manage dental images
@@ -23,7 +33,7 @@ The primary goal of this project is to streamline the diagnostic process for den
 - PostgreSQL (for session management)
 - `virtualenv` (Python virtual environment tool)
 
-### Step-by-Step Setup
+### Step by Step Setup
 
 #### 1. Clone the Repository
 
@@ -46,7 +56,7 @@ Download and install anaconda Install the required packages using pip:
     conda env create -f cvs-staging.yaml
 or Go to the anaconda application and upload the .yml file in your environments tab
 
-### Running the tool
+### 5.Running the tool
 #### Start the node server
         node server.js
 The application should now be running at "http://localhost:3000"
