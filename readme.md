@@ -35,8 +35,13 @@ The primary goal of this project is to streamline the diagnostic process for den
         npm install
 
 #### 3. Set Up MongoDB
-        1. Ensure MongoDB is installed and running on your machine.
+1. Ensure MongoDB is installed and running on your machine.
 2. Create a MongoDB database named "Your-Database".
 3. Update the MongoDB connection string in the config/database.js file if necessary.
 
+#### 4. Packages Required
+Download and install anaconda Install the required packages using pip:
 
+###### Create the environment
+    conda env create -f cvs-staging.yaml
+or Go to the anaconda application and upload the .yml file in your environments tab
