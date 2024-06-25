@@ -57,7 +57,7 @@ To run the python server we need to run the scripts/test.py
 The flask tool server should be running at "http://localhost:5000"
 
 
-### How to Use
+## How to Use
 - Register a new account or log in if you already have one.
 - Upload dental images through the Upload page.
 - Navigate to the Tools page to run AI analysis on uploaded images.
