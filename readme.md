@@ -29,3 +29,12 @@ The primary goal of this project is to streamline the diagnostic process for den
 
 ######
         git clone https://github.com/yourusername/dental-assistance-tool.git
+
+#### 2. Install Node.js Dependencies
+######
+        npm install
+
+#### 3. Set Up MongoDB
+1. Ensure MongoDB is installed and running on your machine.
+2. Create a MongoDB database named RaiDental.
+3. Update the MongoDB connection string in the config/database.js file if necessary.
